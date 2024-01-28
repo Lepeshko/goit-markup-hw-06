@@ -517,19 +517,16 @@ header {
 
 /** =================== FOOTER =================== */
 
-.container-footer {
-   /* padding-top: 101.5px; */
-   display: flex;
-   align-items: baseline;
-}
+
 
 .footer {
    background: #2E2F42;
-   padding: 100px 0;
+   padding: 97.5px 0 96px 0;
+   /* padding: 100px 0; */
 }
 
 .footer-logo {
-   margin-right: 120px;
+   /* margin-right: 120px; */
 }
 
 .footer-logo-link {
@@ -541,8 +538,10 @@ header {
    line-height: 1.17;
    letter-spacing: 0.03em;
    text-transform: uppercase;
-   display: inline-block;
+   display: flex;
+   /* display: inline-block; */
    margin-bottom: 16px;
+   justify-content: center;
 }
 
 .footer-logo-studio {
@@ -564,21 +563,25 @@ header {
    line-height: 1.5;
    letter-spacing: 0.02em;
    /* margin-top: 17.5px; */
-   max-width: 264px;
+   /* max-width: 264px; */
 }
 
 .footer-soc {
-   margin-right: 80px;
+   /* margin-right: 80px; */
 }
 
 .footer-soc-text {
    color: #FFF;
+   display: flex;
+   justify-content: center;
+   align-items: center;
    font-family: Roboto;
    font-size: 16px;
    font-style: normal;
    font-weight: 500;
    line-height: 1.5;
    letter-spacing: 0.02em;
+   margin-top: 76px;
    margin-bottom: 16px;
 }
 
@@ -619,6 +622,9 @@ header {
 .footer-subscribe {}
 
 .footer-subscribe-text {
+   display: flex;
+   justify-content: center;
+   margin-top: 72px;
    margin-bottom: 16px;
    color: #FFF;
    font-size: 16px;
@@ -631,13 +637,16 @@ header {
 
 .footer-form {
    display: flex;
-   gap: 24px;
+   flex-direction: column;
+   gap: 16px;
+   /* gap: 24px; */
 }
 
 .footer-label {}
 
 .footer-input {
-   width: 264px;
+   width: 288px;
+   /* width: 264px; */
    height: 40px;
    background-color: transparent;
    border-radius: 4px;
@@ -656,7 +665,9 @@ header {
 }
 
 .footer-form-btn {
-   min-width: 165px;
+   max-width: 165px;
+   margin: 0 auto;
+   /* min-width: 165px; */
    color: #FFF;
    text-align: center;
    font-size: 16px;
@@ -1306,6 +1317,59 @@ margin-top: 48px;
       padding: 72px 24px 24px 24px;
    }
 
+   /** =================== FOOTER =================== */
+
+   .container-footer {
+      /* padding-top: 101.5px; */
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0 24px;
+      /* flex-direction: column; */
+      align-items: baseline;
+      margin: 0 92px;
+   }
+
+
+   .footer-logo {
+      /* margin-right: 24px; */
+   }
+
+   .footer-soc {
+      /* margin-right: 80px; */
+   }
+
+
+   .footer-soc-text {
+      display: block;
+      margin-top: 0;
+   }
+
+   .footer-subscribe-text {
+      display: block;
+   }
+
+   .footer-logo-link {
+      display: inline-block;
+      margin-bottom: 16px;
+   }
+
+   .footer-logo-text {
+      max-width: 264px;
+   }
+
+   .footer-form {
+      /* display: flex; */
+      flex-direction: row;
+      /* flex-wrap: wrap; */
+      gap: 24px;
+   }
+
+   .footer-input {
+      max-width: 264px;
+   }
+
+
+
 }
 
 /** ++++++++++++++++++++++++++++++++++++++++++++++++++++ */
@@ -1425,6 +1489,33 @@ margin-top: 48px;
    .main-portfolio-list {
       gap: 72px 24px;
    }
+
+   /** =================== FOOTER =================== */
+
+   .container-footer {
+      /* padding-top: 101.5px; */
+      display: flex;
+      flex-direction: row;
+      align-items: baseline;
+   }
+
+   .footer {
+      padding: 100px 0;
+   }
+
+   .footer-soc {
+      margin-right: 80px;
+   }
+
+   .footer-logo {
+      margin-right: 120px;
+   }
+
+   .footer {
+      background: #2E2F42;
+      padding: 100px 0;
+   }
+
 
 
 }
