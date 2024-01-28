@@ -161,133 +161,6 @@ header {
 }
 
 
-/* ---------- Modad window menu --------- */
-
-.mob-menu {
-   position: fixed;
-   top: 0;
-   background-color: #FFF;
-   width: 100%;
-   height: 100%;
-   padding: 72px 16px 128px 16px;
-   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   overflow: auto;
-   opacity: 0;
-   visibility: hidden;
-   pointer-events: none;
-}
-
-.mob-menu-close-btn {
-   position: absolute;
-   top: 24px;
-   right: 24px;
-   width: 24px;
-   height: 24px;
-   border-radius: 50%;
-   padding: 0;
-   cursor: pointer;
-   border: 1px solid rgba(0, 0, 0, 0.10);
-   background-color: #FFFFFF;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.mob-menu-close-icon {}
-
-.mob-menu-navigation {}
-
-.mob-menu-list {}
-
-.mob-menu-item:not(:last-child) {
-   margin-bottom: 40px;
-}
-
-.mob-menu-link {
-   color: #2E2F42;
-   font-size: 36px;
-   font-weight: 700;
-   line-height: 1.11;
-   letter-spacing: 0.02em;
-   text-transform: capitalize;
-}
-
-.mob-menu-item-line {
-   color: #404BBF;
-   font-size: 36px;
-   font-style: normal;
-   font-weight: 700;
-   line-height: 1.11;
-   letter-spacing: 0.02em;
-   text-transform: capitalize;
-}
-
-.mob-menu-address {}
-
-.mob-menu-address-list {}
-
-.mob-menu-address-item:not(:last-child) {
-   margin-bottom: 24px;
-}
-
-.mob-menu-address-link {}
-
-.mob-menu-address-link {
-   color: #434455;
-   font-style: normal;
-   font-size: 20px;
-   font-weight: 500;
-   line-height: 1.2;
-   letter-spacing: 0.02em;
-}
-
-.mob-menu-address-link-select {
-   color: #4D5AE5;
-   font-size: 20px;
-   font-style: normal;
-   font-weight: 500;
-   line-height: 1.2;
-   letter-spacing: 0.02px;
-}
-
-.container-mob-menu-soc-text {}
-
-.mob-menu-soc-list {
-   display: flex;
-   gap: 40px;
-   fill: #f4f4fd;
-   /* max-width: 280px; */
-   /* justify-content: space-between; */
-   /* justify-content: center; */
-   /* align-items: center; */
-   position: absolute;
-   bottom: 40px;
-   left: 16px;
-}
-
-.mob-menu-soc-item {}
-
-.mob-menu-soc-link {
-   width: 40px;
-   height: 40px;
-   flex-shrink: 0;
-   border-radius: 50%;
-   background-color: #4D5AE5;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.mob-menu-soc-svg {
-   fill: #f4f4fd
-}
-
-
 
 
 /** =================== MAIN =================== */
@@ -818,6 +691,134 @@ header {
 /** =================== MODAL WINDOW =================== */
 
 
+/* ----------------- Modad window menu ----------------- */
+
+.mob-menu {
+   position: fixed;
+   top: 0;
+   background-color: #FFF;
+   width: 100%;
+   height: 100%;
+   padding: 72px 16px 128px 16px;
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   overflow: auto;
+   opacity: 0;
+   visibility: hidden;
+   pointer-events: none;
+}
+
+.mob-menu-close-btn {
+   position: absolute;
+   top: 24px;
+   right: 24px;
+   width: 24px;
+   height: 24px;
+   border-radius: 50%;
+   padding: 0;
+   cursor: pointer;
+   border: 1px solid rgba(0, 0, 0, 0.10);
+   background-color: #FFFFFF;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mob-menu-close-icon {}
+
+.mob-menu-navigation {}
+
+.mob-menu-list {}
+
+.mob-menu-item:not(:last-child) {
+   margin-bottom: 40px;
+}
+
+.mob-menu-link {
+   color: #2E2F42;
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 1.11;
+   letter-spacing: 0.02em;
+   text-transform: capitalize;
+}
+
+.mob-menu-item-line {
+   color: #404BBF;
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 1.11;
+   letter-spacing: 0.02em;
+   text-transform: capitalize;
+}
+
+.mob-menu-address {}
+
+.mob-menu-address-list {}
+
+.mob-menu-address-item:not(:last-child) {
+   margin-bottom: 24px;
+}
+
+.mob-menu-address-link {}
+
+.mob-menu-address-link {
+   color: #434455;
+   font-style: normal;
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+}
+
+.mob-menu-address-link-select {
+   color: #4D5AE5;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 1.2;
+   letter-spacing: 0.02px;
+}
+
+.container-mob-menu-soc-text {}
+
+.mob-menu-soc-list {
+   display: flex;
+   gap: 40px;
+   fill: #f4f4fd;
+   /* max-width: 280px; */
+   /* justify-content: space-between; */
+   /* justify-content: center; */
+   /* align-items: center; */
+   position: absolute;
+   bottom: 40px;
+   left: 16px;
+}
+
+.mob-menu-soc-item {}
+
+.mob-menu-soc-link {
+   width: 40px;
+   height: 40px;
+   flex-shrink: 0;
+   border-radius: 50%;
+   background-color: #4D5AE5;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mob-menu-soc-svg {
+   fill: #f4f4fd
+}
+
+
+/* ----------------- Modal window form ----------------- */
 
 .backdrop {
    position: fixed;
@@ -840,8 +841,10 @@ header {
 }
 
 .modal {
-   width: 408px;
-   min-height: 584px;
+   width: 288px;
+   min-height: 623px;
+   /* width: 408px;
+         min-height: 584px; */
    position: absolute;
    top: 50%;
    left: 50%;
@@ -850,7 +853,8 @@ header {
    background-color: #FCFCFC;
    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   padding: 72px 24px 24px 24px;
+   padding: 72px 16px 24px 16px;
+   /* padding: 72px 24px 24px 24px; */
 }
 
 .modal-close-btn {
@@ -1230,7 +1234,7 @@ margin-top: 48px;
 
    /** ===================== MAIN ===================== */
 
-   /** ------------------ 1st HERO ------------------ */
+   /* ------------------ 1st HERO ------------------ */
    .main-hero {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office1-tab.jpg);
    }
@@ -1256,7 +1260,7 @@ margin-top: 48px;
       margin-bottom: 36px;
    }
 
-   /** ------------------ 2nd SKILS ------------------ */
+   /* ------------------ 2nd SKILS ------------------ */
 
    .main-skils-list {
       display: flex;
@@ -1272,7 +1276,7 @@ margin-top: 48px;
       text-align: left;
    }
 
-   /** ------------------ 3th OUR TEAM ------------------ */
+   /* ------------------ 3th OUR TEAM ------------------ */
 
    .main-team-item {
       width: calc((100% - 24px) / 2);
@@ -1282,7 +1286,7 @@ margin-top: 48px;
       gap: 64px 24px;
    }
 
-   /** ------------------ 4th PORTFOLIO ------------------ */
+   /* ------------------ 4th PORTFOLIO ------------------ */
 
    .main-portfolio-list {
       gap: 72px 24px;
@@ -1292,12 +1296,17 @@ margin-top: 48px;
       width: calc((100% - 24px) / 2);
    }
 
+
+
+   /** =================== MODAL WINDOW =================== */
+
+   .modal {
+      width: 408px;
+      min-height: 584px;
+      padding: 72px 24px 24px 24px;
+   }
+
 }
-
-
-
-
-
 
 /** ++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /** +++++++++++++++++++++ DESKTOP VERSION ++++++++++++++++++++++ */
@@ -1338,7 +1347,7 @@ margin-top: 48px;
 
    /** ===================== MAIN ==================== */
 
-   /** ------------------ 1st HERO ------------------ */
+   /* ------------------ 1st HERO ------------------ */
 
    .main-hero {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office1.jpg);
@@ -1362,7 +1371,7 @@ margin-top: 48px;
    }
 
 
-   /** ------------------ 2nd SKILS ------------------ */
+   /* ------------------ 2nd SKILS ------------------ */
 
    .main-skils {
       padding: 120px 0;
@@ -1389,7 +1398,7 @@ margin-top: 48px;
    }
 
 
-   /** ------------------ 3th OUR TEAM ------------------ */
+   /* ------------------ 3th OUR TEAM ------------------ */
 
    .main-team {
       padding: 120px 0;
@@ -1403,7 +1412,7 @@ margin-top: 48px;
       gap: 24px;
    }
 
-   /** ------------------ 4th PORTFOLIO ------------------ */
+   /* ------------------ 4th PORTFOLIO ------------------ */
 
    .main-portfolio {
       padding: 120px 0;
