@@ -829,6 +829,7 @@ header {
    visibility: hidden;
    position: none;
    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   pointer-events: none;
 }
 
 .is-open {
@@ -1136,6 +1137,10 @@ margin-top: 48px;
 
    /* ------------ menu -------------- */
 
+   .mob-menu {
+      display: none;
+   }
+
    .header-menu-list {
       display: flex;
       gap: 40px;
@@ -1326,6 +1331,9 @@ margin-top: 48px;
       line-height: 1.5;
    }
 
+   .mob-menu {
+      display: none;
+   }
 
    /** ===================== MAIN ==================== */
 
