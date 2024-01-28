@@ -171,8 +171,9 @@ header {
 /*? .main {} */
 
 .main-hero {
-   /* background: #2E2F42; */
-   padding: 188px 0;
+   padding: 72px 0;
+   /* padding:112px 0; */
+   /* padding: 188px 0; */
    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office1.jpg);
    background-repeat: no-repeat;
    position: center;
@@ -189,14 +190,19 @@ header {
    color: #FFF;
    text-align: center;
    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-   font-size: 56px;
+   font-size: 36px;
+   /* font-size: 56px; */
    font-weight: 700;
-   line-height: 1.07;
+   line-height: 1.11;
+   /* line-height: 1.07; */
    letter-spacing: 0.02em;
+   text-transform: capitalize;
    max-width: 496px;
    margin: 0 auto;
-   margin-bottom: 48px;
 
+   margin-bottom: 72px;
+   /* margin-bottom: 36px; */
+   /* margin-bottom: 48px; */
 }
 
 .container-hero-btn {
@@ -1075,6 +1081,19 @@ margin-top: 48px;
 
    /** ===================== MAIN ===================== */
 
+   /** ------------------ 1st HERO ------------------ */
+
+
+   .main-hero {
+      padding: 112px 0;
+   }
+
+   .main-hero-heading {
+      font-size: 56px;
+      line-height: 1.07;
+
+      margin-bottom: 36px;
+   }
 
    /** ------------------ 2nd SKILS ------------------ */
 
@@ -1154,6 +1173,18 @@ margin-top: 48px;
 
 
    /** ===================== MAIN ==================== */
+
+   /** ------------------ 1st HERO ------------------ */
+
+
+   .main-hero {
+      padding: 188px 0;
+   }
+
+   .main-hero-heading {
+      margin-bottom: 48px;
+   }
+
 
    /** ------------------ 2nd SKILS ------------------ */
 
